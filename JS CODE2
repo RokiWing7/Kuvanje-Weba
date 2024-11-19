@@ -18,12 +18,12 @@ window.addEventListener("DOMContentLoaded", function(){
     }
 });
 
-const button = document.getElementsByTagName("TagName");
-const input = document.getElementsByTagName("TagName");
-for(var i=0;i<button.lenght;i++){
+const button = document.getElementsByTagName("button");
+const input = document.getElementsByTagName("input")[0];
+for(var i=0;i<button.length;i++){
 button[i].addEventListener("click", zbir);
 }
-});
+
 
 function zbir(){
     let zbirG = 0;
